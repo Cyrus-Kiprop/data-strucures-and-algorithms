@@ -18,7 +18,7 @@ let stack = function () {
     return result;
   }
 
-  this.size= function () {
+  this.size= function () { // the total number of items in the  stack
     return this.count;
   }
 
